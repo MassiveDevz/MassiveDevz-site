@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap");
+
+a {
+  text-decoration: none !important;
+  color: inherit;
+}
+a:hover {
+  text-decoration: none;
+}
+.m-h1 {
+  font-size: 3.5rem !important;
+  font-weight: bold !important;
+  text-transform: uppercase;
+  color: var(--better-white);
+}
+.m-h2 {
+  color: var(--better-white);
+  font-size: 3rem !important;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+.m-h3 {
+  color: var(--better-white);
+  font-size: 2rem !important;
+  text-align: center;
+}
+.m-container {
+  margin-inline: auto !important;
+}
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flexBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+/* hide scrollbar but allow scrolling */
+body {
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll;
+}
+body::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
